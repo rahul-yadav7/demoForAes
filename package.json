@@ -1,0 +1,26 @@
+{
+  "name": "demoforaes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul-yadav7/demoForAes.git"
+  },
+  "author": "rahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahul-yadav7/demoForAes/issues"
+  },
+  "homepage": "https://github.com/rahul-yadav7/demoForAes#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.1",
+    "multer": "^1.4.1",
+    "path": "^0.12.7"
+  }
+}
