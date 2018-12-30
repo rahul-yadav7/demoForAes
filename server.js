@@ -11,7 +11,6 @@ app.use(bodyParser.urlencoded({ extended: true }))
 // parse application/json
 app.use(bodyParser.json())
  
-app.use("/uploads", express.static(path.join(__dirname, 'uploads')));
 
 app.listen(8080);
 console.log("port is running",8080)
